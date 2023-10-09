@@ -851,13 +851,13 @@ typing-extensions = ">=4.4.0,<5.0.0"
 
 [[package]]
 name = "nonebot-adapter-red"
-version = "0.5.1"
+version = "0.5.2"
 description = "Red Protocol Adapter for Nonebot2"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nonebot_adapter_red-0.5.1-py3-none-any.whl", hash = "sha256:57d41547f4587cc140641cfb361766a34bde31b593690bf15841ad8cfaf3362b"},
-    {file = "nonebot_adapter_red-0.5.1.tar.gz", hash = "sha256:12dde60000f3827f1f9d2939ec71ba6fe7c9b71cbf04266612db10ab992bded9"},
+    {file = "nonebot_adapter_red-0.5.2-py3-none-any.whl", hash = "sha256:fb0743411836f2d3351575e3f75f78c80fb6c8c0fe1b71256369cc737fe595ad"},
+    {file = "nonebot_adapter_red-0.5.2.tar.gz", hash = "sha256:11467b509ef75f7d920a0fe870287a9fea6fbe3a7ce6903eee287f63d893019d"},
 ]
 
 [package.dependencies]
@@ -866,6 +866,20 @@ packaging = ">=23.1"
 
 [package.extras]
 auto-detect = ["PyYAML"]
+
+[[package]]
+name = "nonebot-adapter-satori"
+version = "0.1.1"
+description = "Satori Protocol Adapter for Nonebot2"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "nonebot_adapter_satori-0.1.1-py3-none-any.whl", hash = "sha256:bd85feb1796bedd6d96ab241bd96c430f6292fb84ab38720cd525560b60dc36b"},
+    {file = "nonebot_adapter_satori-0.1.1.tar.gz", hash = "sha256:794e92955630a6d6d0fcf92857281572c09d67cf454f83bcd7a7b9498efbba9f"},
+]
+
+[package.dependencies]
+nonebot2 = ">=2.1.0"
 
 [[package]]
 name = "nonebot-adapter-telegram"
@@ -1792,4 +1806,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "f2a6215d38a6536e3aef3f3dac30968eef4acbc0adcb9dc524f7ed801292df1f"
+content-hash = "8b2115009b928a96bb29b411fb5f8d25938122b9e2a000237d45c93e10dbde8c"
