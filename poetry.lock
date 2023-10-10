@@ -869,13 +869,13 @@ auto-detect = ["PyYAML"]
 
 [[package]]
 name = "nonebot-adapter-satori"
-version = "0.1.1"
+version = "0.3.0"
 description = "Satori Protocol Adapter for Nonebot2"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nonebot_adapter_satori-0.1.1-py3-none-any.whl", hash = "sha256:bd85feb1796bedd6d96ab241bd96c430f6292fb84ab38720cd525560b60dc36b"},
-    {file = "nonebot_adapter_satori-0.1.1.tar.gz", hash = "sha256:794e92955630a6d6d0fcf92857281572c09d67cf454f83bcd7a7b9498efbba9f"},
+    {file = "nonebot_adapter_satori-0.3.0-py3-none-any.whl", hash = "sha256:dd522ffa3b525de29adc5183056d1d05a2aa130462621ee1d018b6cc5c07a42c"},
+    {file = "nonebot_adapter_satori-0.3.0.tar.gz", hash = "sha256:8784ef43723d196583cc3c5cc2b516948b25bc9822bddda24a5c62bec22e5053"},
 ]
 
 [package.dependencies]
@@ -1806,4 +1806,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "8b2115009b928a96bb29b411fb5f8d25938122b9e2a000237d45c93e10dbde8c"
+content-hash = "5caa67c677d1866644ef9bec241e9e86059dff522283f55878e0bd7613e664f5"
