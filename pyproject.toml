@@ -51,6 +51,10 @@ nonebot-adapter-telegram = "^0.1.0b12"
 nonebot-adapter-feishu = "^2.1.1"
 nonebot-adapter-red = ">=0.4.1"
 
+
+[tool.poetry.group.alc.dependencies]
+nonebot-plugin-alconna = "^0.30.7"
+
 [tool.black]
 line-length = 88
 target-version = ["py38", "py39", "py310"]
